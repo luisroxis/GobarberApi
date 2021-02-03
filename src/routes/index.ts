@@ -1,9 +1,9 @@
-import { Router } from 'express'
+import { Router } from 'express';
 
-const routes = Router()
+const routes = Router();
 
-routes.get('/', (request, response) =>{
-  response.json({msg: 'Gobarber'})
-})
+routes.get('/', (request, response) => {
+  response.json({ msg: 'Gobarber' });
+});
 
-export default routes
+export default routes;
